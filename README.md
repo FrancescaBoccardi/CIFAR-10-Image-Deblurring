@@ -1,7 +1,7 @@
 # CIFAR-10-Image-Deblurring
 
 The aim of this project is to solve an image deblurring task on a set of CIFAR-10 images, manually corrupted with both gaussian noise and gaussian blur.
-In order to deal with the problem, in the `CIFAR-10_Image_Deblurring.ipynb` notebook two different approaches have been described and analyzed, namely a Convolutional Autoencoder and the Win5-RB network, finally comparing their results. In particular, performances of the two models have been evaluated through the computation of the mean squared error (MSE) between the test set of original images (ground truth) and those restored by the networks, starting from the corrupted ones. 
+In order to deal with the problem, in the `CIFAR_10_Image_Deblurring.ipynb` notebook two different approaches have been described and analyzed, namely a Convolutional Autoencoder and the Win5-RB network, finally comparing their results. In particular, performances of the two models have been evaluated through the computation of the mean squared error (MSE) between the test set of original images (ground truth) and those restored by the networks, starting from the corrupted ones. 
 
 ## Convolutional Autoencoder
 
